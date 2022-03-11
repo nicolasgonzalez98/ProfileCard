@@ -51,14 +51,18 @@ main{
 }
 
 .profile-pic{
-    width: 40%;
+    width: 25%;
     height: 40%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
+    border: 3px solid white;
     background-image: url(/images/image-victor.jpg);
-    background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+
     
 }
 
@@ -73,11 +77,14 @@ main{
 }
 
 .name{
-    height: 30%;
+    height: 75%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content:center;
+    position: relative;
+    top:-27%;
+    left: 0%;
     
 }
 
